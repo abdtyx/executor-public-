@@ -1,0 +1,2 @@
+"E:\Programming Studio\mingw64\bin\ar.exe" qc libexecutor.a CMakeFiles/executor.dir/executor/Executor.cpp.obj
+"E:\Programming Studio\mingw64\bin\ranlib.exe" libexecutor.a

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{24CB31D8-F6CB-311B-A037-F4B51EDF2E57}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>test_executor</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_executor.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_executor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_executor.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_executor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_executor.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_executor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_executor.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_executor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest/include" /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest" -Wno-invalid-offsetof -g -std=gnu++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CUSTOMER_LOG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CUSTOMER_LOG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Debug\executor.lib;..\lib\Debug\gtest_main.lib;..\lib\Debug\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/Debug/test_executor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/Debug/test_executor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest/include" /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest" -Wno-invalid-offsetof -g -std=gnu++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CUSTOMER_LOG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CUSTOMER_LOG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Release\executor.lib;..\lib\Release\gtest_main.lib;..\lib\Release\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/Release/test_executor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/Release/test_executor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest/include" /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest" -Wno-invalid-offsetof -g -std=gnu++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CUSTOMER_LOG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CUSTOMER_LOG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\MinSizeRel\executor.lib;..\lib\MinSizeRel\gtest_main.lib;..\lib\MinSizeRel\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/MinSizeRel/test_executor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/MinSizeRel/test_executor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest/include" /external:I "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest" -Wno-invalid-offsetof -g -std=gnu++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CUSTOMER_LOG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CUSTOMER_LOG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\deps;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\src;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\include;E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\RelWithDebInfo\executor.lib;..\lib\RelWithDebInfo\gtest_main.lib;..\lib\RelWithDebInfo\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/RelWithDebInfo/test_executor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/RelWithDebInfo/test_executor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Programming Studio\CMake\bin\cmake.exe" -SE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master -BE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build --check-stamp-file E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Programming Studio\CMake\bin\cmake.exe" -SE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master -BE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build --check-stamp-file E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Programming Studio\CMake\bin\cmake.exe" -SE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master -BE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build --check-stamp-file E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Programming Studio\CMake\bin\cmake.exe" -SE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master -BE:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build --check-stamp-file E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\test\executor_test.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\ZERO_CHECK.proj">
+      <Project>{E258B9C6-AC98-3B66-8CFB-2760D9753CBD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\src\executor.vcxproj">
+      <Project>{0AB1FCFB-B113-36B7-86D5-10146D4E6BDF}</Project>
+      <Name>executor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\thirdparty\googletest\gtest.vcxproj">
+      <Project>{9AE3F27C-5D7B-396B-BBA8-A1159D6CCC9B}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\thirdparty\googletest\gtest_main.vcxproj">
+      <Project>{DC8FF525-5D9E-3912-BA2A-CBC89F04FE24}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'e:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master'
+make.exe: Leaving directory 'e:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+

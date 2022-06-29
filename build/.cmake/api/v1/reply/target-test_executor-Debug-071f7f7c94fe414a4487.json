@@ -1,0 +1,195 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test/test_executor.exe"
+		},
+		{
+			"path" : "test/test_executor.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"test/CMakeLists.txt",
+			"thirdparty/googletest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wno-invalid-offsetof -g -std=gnu++11 -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CUSTOMER_LOG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/test"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/deps"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "executor::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest_main::@f967ac6c6bf81153fef8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@f967ac6c6bf81153fef8"
+		}
+	],
+	"id" : "test_executor::@36f028580bb02cc8272a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wno-invalid-offsetof -g -std=gnu++11 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\src\\libexecutor.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\lib\\libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_executor",
+	"nameOnDisk" : "test_executor.exe",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/executor_test.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

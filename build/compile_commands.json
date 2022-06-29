@@ -1,0 +1,22 @@
+[
+{
+  "directory": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/src",
+  "command": "\"E:\\Programming Studio\\mingw64\\bin\\g++.exe\"  @CMakeFiles/executor.dir/includes_CXX.rsp -g -o CMakeFiles\\executor.dir\\executor\\Executor.cpp.obj -c E:\\cpp\\git_repository\\RepoForCommunication\\tyx\\cpp\\Huawei\\executor_bootstrap-master\\src\\executor\\Executor.cpp",
+  "file": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/src/executor/Executor.cpp"
+},
+{
+  "directory": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/test",
+  "command": "\"E:\\Programming Studio\\mingw64\\bin\\g++.exe\" -DCUSTOMER_LOG @CMakeFiles/test_executor.dir/includes_CXX.rsp  -Wno-invalid-offsetof -g -std=gnu++11 -g -o CMakeFiles\\test_executor.dir\\executor_test.cc.obj -c E:\\cpp\\git_repository\\RepoForCommunication\\tyx\\cpp\\Huawei\\executor_bootstrap-master\\test\\executor_test.cc",
+  "file": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/test/executor_test.cc"
+},
+{
+  "directory": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/thirdparty/googletest",
+  "command": "\"E:\\Programming Studio\\mingw64\\bin\\g++.exe\"  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-deprecated-declarations -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c E:\\cpp\\git_repository\\RepoForCommunication\\tyx\\cpp\\Huawei\\executor_bootstrap-master\\thirdparty\\googletest\\src\\gtest-all.cc",
+  "file": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/build/thirdparty/googletest",
+  "command": "\"E:\\Programming Studio\\mingw64\\bin\\g++.exe\"  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-deprecated-declarations -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c E:\\cpp\\git_repository\\RepoForCommunication\\tyx\\cpp\\Huawei\\executor_bootstrap-master\\thirdparty\\googletest\\src\\gtest_main.cc",
+  "file": "E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/thirdparty/googletest/src/gtest_main.cc"
+}
+]

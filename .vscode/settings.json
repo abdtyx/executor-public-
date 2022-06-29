@@ -1,0 +1,7 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "*.hmtl": "html",
+        "xstring": "cpp"
+    }
+}

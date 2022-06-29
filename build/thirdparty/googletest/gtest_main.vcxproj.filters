@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\src\gtest_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\thirdparty\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C1DD9784-5D75-3237-8413-A2DD4972A814}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
