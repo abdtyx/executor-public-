@@ -171,9 +171,9 @@ src/CMakeFiles/executor.dir/clean:
 # Target rules for target test/CMakeFiles/test_executor.dir
 
 # All Build rule for target.
-test/CMakeFiles/test_executor.dir/all: src/CMakeFiles/executor.dir/all
 test/CMakeFiles/test_executor.dir/all: thirdparty/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/test_executor.dir/all: thirdparty/googletest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/test_executor.dir/all: src/CMakeFiles/executor.dir/all
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_executor.dir\build.make test/CMakeFiles/test_executor.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_executor.dir\build.make test/CMakeFiles/test_executor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cpp\git_repository\RepoForCommunication\tyx\cpp\Huawei\executor_bootstrap-master\build\CMakeFiles --progress-num=7,8 "Built target test_executor"
