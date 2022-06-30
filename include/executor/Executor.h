@@ -18,6 +18,7 @@
 
 #include <string>
 #include <map>
+#include <set>
 
 typedef struct _init_pack {
     int x;
@@ -71,11 +72,12 @@ public:
     bool init(init_pack init_pk = {0, 0, NORTH});
     bool take_action(std::string action);
     position_readable get_position();
-    void move(int forward_or_backward);
+    void set_dangerous_position(std::pair<int, int> p);
 
 private:
     std::string name;
     position pos;
+    std::set<std::pair<int, int> > dangerous_position;
 };
 
 #endif //FE0C20F3603C4B6B9DBF2214C001D90A

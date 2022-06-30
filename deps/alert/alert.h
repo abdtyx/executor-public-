@@ -5,6 +5,8 @@ typedef enum {
 	IN_DANGEROUS = 3,
 } AlertType;
 
-void alert(AlertType type, int x, int y);
+void alert(AlertType type, int x, int y) {
+	return;
+}
 
 #endif

@@ -1,4 +1,6 @@
 #include "executor/Executor.h"
+#include "Command/Command.h"
+#include "../deps/alert/alert.h"
 
 bool Executor::init(init_pack init_pk) {
     // 判断init_pk.heading是否合法
@@ -25,19 +27,28 @@ bool Executor::init(init_pack init_pk) {
 
 bool Executor::take_action(std::string action) {
     if (action == TURN_LEFT) {
-        pos.heading_code = ((pos.heading_code << 1) & 0b1111) | (pos.heading_code >> 3);
+        Turnleft c;
+        c.command(pos);
     }
     else if (action == TURN_RIGHT) {
-        pos.heading_code = (pos.heading_code >> 1) | ((pos.heading_code << 3) & 0b1111);
+        Turnright c;
+        c.command(pos);
     }
     else if (action == FORWARD) {
-        move(1);
+        Forward c;
+        c.command(pos);
     }
     else if (action == BACKWARD) {
-        move(-1);
+        Backward c;
+        c.command(pos);
     }
     else if (action == TURN_ROUND) {
-        pos.heading_code = ((pos.heading_code << 2) & 0b1111) | (pos.heading_code >> 2);
+        Turnround c;
+        c.command(pos);
+    }
+
+    if (dangerous_position.find(std::make_pair(pos.position_x, pos.position_y)) != dangerous_position.end()) {
+        alert(IN_DANGEROUS, pos.position_x, pos.position_y);
     }
     return true;
 }
@@ -50,8 +61,6 @@ position_readable Executor::get_position() {
     return return_pos;
 }
 
-void Executor::move(int forward_or_backward) {
-    attr a = pos.heading_attribute[pos.heading_code];
-    pos.position_x += (a.XorY ^ Y) * a.op * forward_or_backward;
-    pos.position_y += (a.XorY ^ X) * a.op * forward_or_backward;
+void Executor::set_dangerous_position(std::pair<int, int> p) {
+    dangerous_position.insert(p);
 }
