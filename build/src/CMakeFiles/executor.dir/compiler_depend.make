@@ -122,10 +122,35 @@ src/CMakeFiles/executor.dir/executor/Executor.cpp.obj: E:/cpp/git_repository/Rep
   E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_set.h \
   E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h \
   E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/include/Command/Command.h \
-  E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/deps/alert/alert.h
+  E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/deps/alert/alert.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+  E:/Programming\ Studio/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+  E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/deps/clean/clean.h
 
 
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h:
 
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string:
 
@@ -184,6 +209,8 @@ E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h:
 
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:
 
 E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/deps/alert/alert.h:
 
@@ -254,6 +281,8 @@ E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
 
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc:
 
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
@@ -368,3 +397,43 @@ E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits
 E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h:
 
 E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/include/Command/Command.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype:
+
+E:/Programming\ Studio/mingw64/x86_64-w64-mingw32/include/wctype.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
+
+E:/Programming\ Studio/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc:
+
+E:/cpp/git_repository/RepoForCommunication/tyx/cpp/Huawei/executor_bootstrap-master/deps/clean/clean.h:
