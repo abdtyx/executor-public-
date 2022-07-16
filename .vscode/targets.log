@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 30 21:01:52 2022
+# Make data base, printed on Fri Jul 15 18:46:50 2022
 
 # Variables
 
@@ -22,8 +22,6 @@ GNUMAKEFLAGS :=
 .SHELLFLAGS := -c
 # makefile
 MAKEFLAGS = pqrR
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -41,7 +39,7 @@ SHELL := sh.exe
 # environment
 WINDIR = C:\WINDOWS
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"C:\\Users\\Msipc\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
 # environment
 ONEDRIVE = C:\Users\Msipc\OneDrive
 # environment
@@ -57,19 +55,15 @@ GO111MODULE = on
 # environment
 TMP = C:\Users\Msipc\AppData\Local\Temp
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-963975e5-d7bd-40e7-9fa4-dd9a8da0705a-sock
 # environment
 VSCODE_CWD = E:\cpp\Microsoft VS Code
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-14.0.2\bin;.;C:\Program Files\Java\jdk-14.0.2\lib;C:\Program Files\Java\jdk-14.0.2\lib\tool.jar;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;E:\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Users\Msipc\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\Msipc\.dotnet\tools;E:\Programming Studio\Matlab\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Go\bin;E:\cpp\Microsoft VS Code\bin;E:\Programming Studio\mingw64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\Programming Studio\Xshell\;E:\Programming Studio\Xftp\;E:\cpp\Qt\6.2.1\mingw81_64\bin;E:\cpp\Qt\Tools\mingw810_64\bin;C:\Python39\Lib\site-packages\torch\lib;E:\Programming Studio\CMake\bin;E:\Programming Studio\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin;C:\Python39\Scripts\;C:\Python39\;C:\Users\Msipc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Msipc\go\bin;E:\Programming Studio\GoLand 2021.3.2\bin;;C:\Users\Msipc\.dotnet\tools;;E:\Programming Studio\IntelliJ IDEA Community Edition 2021.3.1\bin;
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-14.0.2\bin;.;C:\Program Files\Java\jdk-14.0.2\lib;C:\Program Files\Java\jdk-14.0.2\lib\tool.jar;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;E:\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Users\Msipc\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\Msipc\.dotnet\tools;E:\Programming Studio\Matlab\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Go\bin;E:\cpp\Microsoft VS Code\bin;E:\Programming Studio\mingw64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\Programming Studio\Xshell\;E:\Programming Studio\Xftp\;E:\cpp\Qt\6.2.1\mingw81_64\bin;E:\cpp\Qt\Tools\mingw810_64\bin;C:\Python39\Lib\site-packages\torch\lib;E:\Programming Studio\CMake\bin;E:\Programming Studio\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin;D:\Anaconda3\Library\bin;C:\Python39\Scripts\;C:\Python39\;C:\Users\Msipc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Msipc\go\bin;E:\Programming Studio\GoLand 2021.3.2\bin;;C:\Users\Msipc\.dotnet\tools;;E:\Programming Studio\IntelliJ IDEA Community Edition 2021.3.1\bin;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -83,8 +77,6 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 GOPATH = E:\cpp\GolangProjects
 # environment
-VSCODE_LOG_STACK = false
-# environment
 NUMBER_OF_PROCESSORS = 16
 # environment
 ELECTRON_RUN_AS_NODE = 1
@@ -95,9 +87,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 GOBIN = E:\cpp\GolangProjects\bin
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17388_SQTUXRVEIJLBRELV
-# environment
-VSCODE_PIPE_LOGGING = true
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4356_IOSVYMJFRULMDSUK
 # environment
 COMPUTERNAME = MSI
 # environment
@@ -119,7 +109,7 @@ KMP_DUPLICATE_LIB_OK = TRUE
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Msipc\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\Msipc\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -169,7 +159,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\1bf8df589db97b683eaf8c02ab8eb730-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\1bf8df589db97b683eaf8c02ab8eb730-1.69.1-main-sock
 # environment
 HOMEPATH = \Users\Msipc
 # environment
@@ -229,11 +219,11 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 17388
+VSCODE_PID = 4356
 # environment
 USERDOMAIN_ROAMINGPROFILE = MSI
 # variable set hash-table stats:
-# Load=110/1024=11%, Rehash=0, Collisions=16/128=13%
+# Load=105/1024=10%, Rehash=0, Collisions=16/123=13%
 
 # Pattern-specific Variable Values
 
@@ -306,6 +296,6 @@ GNUmakefile:
 # strcache performance: lookups = 21 / hit rate = 9%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Thu Jun 30 21:01:52 2022
+# Finished Make data base on Fri Jul 15 18:46:50 2022
 
  

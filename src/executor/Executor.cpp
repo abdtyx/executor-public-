@@ -74,7 +74,8 @@ bool Executor::take_action(std::string action)
 
     // 获取当前位置需要执行的操作并调用相应的接口
     operate_position c = {
-        pos.position_x, pos.position_y, -1};
+        pos.position_x, pos.position_y, -1
+    };
     c.operation = is_operate_position(std::make_pair(c.x, c.y));
     call_api(c);
     return true;
